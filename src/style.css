@@ -1,12 +1,94 @@
-* {
-  margin: 0;
+*{
+  margin: 0%;
   padding: 0;
-  border: none;
-  box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif;
+  top: 0%;
 }
 
-#main-heading {
-  font-size: large;
+body {
+  border: 1px solid rgb(29, 27, 27);
+  margin: 90px;
+  padding-bottom: 50px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
+}
+.heading-text h3 {
+  font-size: 25px;
+  padding-bottom: 36px;
+
+}
+
+.refresh {
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.heading {
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.add-score {
+  font-size: 25px;
+  font-weight: bolder;
+  padding-bottom: 36px;
+}
+
+
+.list {
+  border: 2px solid;
+  display: flex;
+  list-style: none;
+  padding: 5px;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(124, 124, 126);
+}
+
+.input-section {
+  padding-left: 50px;
+  padding-bottom: 150px;
+}
+
+.names,
+.numbers {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 2px;
+  padding-left: 1rem;
+}
+
+.names {
+  margin-bottom: 1rem;
+}
+
+.numbers {
+  margin-bottom: 0.5rem;
+}
+
+#submit-button {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 204px;
 }
