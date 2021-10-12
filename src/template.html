@@ -7,18 +7,22 @@
   <title>To do List</title>
 </head>
 <body>
-  
   <div id="main-container">
     <h1 id="main-heading">leaderboard</h1>
     <div class="first-container">
       <div class="scores-refresh">
+        <p>Recent scores</p>
+        <input type="button" name="button" id="refresh" value="Refresh">
         <div id="scores">
           <ul class="list"></ul>
         </div>
       </div>
     </div>
-    <div id="second-container">
-      
+    <div class="second-container">
+      <p>Add your scores</p>
+      <input class="name" type="text" placeholder="your name"><br>
+      <input class="score" type="number" placeholder="your scores"><br>
+      <input type="button" name="button" id="add-button" value="submit">
     </div>
   </div>
   

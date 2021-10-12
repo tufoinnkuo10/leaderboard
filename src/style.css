@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#main-heading {
+  font-size: large;
+  align-items: center;
+}
