@@ -7,20 +7,37 @@
   <title>To do List</title>
 </head>
 <body>
-  
-  <div id="main-container">
-    <p>hello everbody</p>
-    <div class="container">
-      <div class="items-container">
-        <div class="title">
-        </div>
-        <div class="input"></div>
-      </div>
-      <div class="delete-container">
-        <div class="delete"></div>
-      </div>
+  <h1 class="heading">Leaderboard</h1>
+  <section class="main">
+    
+  <div class="score part">
+    <div class="heading-text">
+      <h3>Recent Scores <span class="refresh"><button class="refresh" type="reset">Refresh</button></span></h3>
     </div>
-  </div>
+    <div class="scorelist">
+      <ul class="list">
+        <li>john:25</li>
+        <li>james:45</li>
+        <li>king:78</li>
+        <li>tenten:584</li>
+        <li>kerenz:78</li>
+        <li>kelsy:144</li>
+        <li>queen:78</li>
+      </ul>
   
+    </div>
+
+  </div>
+
+  <div class="input-section">
+    <p class="add-score">Add Your Scores</p>
+    <input class="names" type="text" placeholder="your name"><br>
+    <input class="numbers" type="number" placeholder="your score"><br>
+    <input type="button" name="button" id="submit-button" value="submit">
+  </div>
+
+  </section>
+  
+ <script src="script.js"></script>
 </body>
 </html>
