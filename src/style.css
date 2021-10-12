@@ -92,3 +92,9 @@ li:nth-child(odd) {
   padding: 5px;
   margin-left: 204px;
 }
+
+.refresh:hover,
+#submit-button:hover {
+  color: black;
+  background-color: chocolate;
+}
