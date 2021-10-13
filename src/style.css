@@ -48,9 +48,7 @@ body {
   border: 2px solid;
   display: flex;
   list-style: none;
-  padding: 5px;
   flex-direction: column;
-  padding-left: 20px;
 }
 
 li {
