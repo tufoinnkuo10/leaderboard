@@ -21,3 +21,10 @@ submit.addEventListener('click', (e) => {
     scoreValue.value = '';
   }
 });
+
+refresh.addEventListener('click', () => {
+  window.location.reload();
+});
+
+newGame();
+getScores(points);
