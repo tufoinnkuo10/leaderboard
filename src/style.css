@@ -49,6 +49,8 @@ h1 {
   color: #12c712;
   padding: 2px;
   background-color: hsl(242deg 4% 18%);
+  border: 1px solid rgb(3, 70, 19);
+  border-radius: 0.5rem;
 }
 
 #refresh:hover {
@@ -57,6 +59,8 @@ h1 {
 
 #container {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   gap: 3rem;
   align-items: center;
   width: 100%;
@@ -70,17 +74,18 @@ h1 {
 }
 
 #points {
-  border: 3px solid #e4e40de8;
+  border: 4px solid #e4e40de8;
   overflow: auto;
+  border-radius: 2rem;
 }
 
 #scores {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 5rem;
-  margin: 0.4rem;
+  gap: 1rem;
+  margin: 0.1rem;
   height: 3rem;
+  padding-left: 9px;
 }
 
 #scores:nth-child(odd) {
@@ -88,6 +93,51 @@ h1 {
 }
 
 #scores:nth-child(even) {
-  background-color: rgb(218 4 147 / 92%);
+  background-color: rgb(234 52 85 / 92%);
+}
+
+.addscore {
+  gap: 3rem;
+  align-items: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #e4e40de8;
+}
+
+#add-score {
+  padding-bottom: 2rem;
+  background-image: url('../images/images.jpg');
+  background-repeat: no-repeat;
+  border: 2px solid #e4e40de8;
+  border-radius: 2rem;
+}
+
+#score,
+#name {
+  padding: 0.5rem;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #a1a1a7;
+  border-radius: 0.5rem;
+  border: 1px solid hsl(0deg 0% 13%);
+}
+
+#submit {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  border: 2px solid hsl(0deg 0% 13%);
+  border-radius: 10rem;
+  background-color: #a1a1a7;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#submit:hover {
+  color: #06648a;
+  background-color: #e4e40de8;
+
 }
 
