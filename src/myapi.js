@@ -13,3 +13,18 @@ const newGame = async () => {
   const jsonData = await response.json();
   return jsonData;
 };
+
+const newUser = async (userValue, scoreValue) => {
+  const response = await fetch(scoresUrl, {
+    method: 'POST',
+    body: JSON.stringify({
+      user: userValue,
+      score: scoreValue,
+    }),
+    headers: {
+      'Content-Type': 'application/json; charset=utf-8',
+    },
+  });
+  const jsonData = await response.json();
+  return jsonData;
+};
