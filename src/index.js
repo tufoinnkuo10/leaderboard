@@ -1,5 +1,5 @@
 import './style.css';
-import { addScore, getScores, newGame } from './myapi.js';
+import { addScore, getScores } from './myapi.js';
 
 const userValue = document.querySelector('#name');
 const scoreValue = document.querySelector('#score');
