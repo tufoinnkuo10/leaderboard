@@ -1,5 +1,5 @@
 import './style.css';
-import { newUser, getScores, newGame } from './myapi.js';
+import { addScore, getScores, newGame } from './myapi.js';
 
 const userValue = document.querySelector('#name');
 const scoreValue = document.querySelector('#score');
@@ -16,7 +16,7 @@ submit.addEventListener('click', (e) => {
     scoreValue.setCustomValidity('highest score is 500');
     scoreValue.reportValidity();
   } else {
-    newUser(userValue.value, scoreValue.value);
+    addScore(userValue.value, scoreValue.value);
     getScores(points);
     userValue.value = '';
     scoreValue.value = '';
@@ -27,5 +27,4 @@ refresh.addEventListener('click', () => {
   window.location.reload();
 });
 
-newGame();
 getScores(points);

@@ -14,7 +14,7 @@ const newGame = async () => {
   return jsonData;
 };
 
-const newUser = async (userValue, scoreValue) => {
+const addScore = async (userValue, scoreValue) => {
   const response = await fetch(scoresUrl, {
     method: 'POST',
     body: JSON.stringify({
@@ -33,7 +33,7 @@ const frameCreation = (arr, cont) => {
   let players = '';
   arr.forEach((player) => {
     players += `<div id="scores">
-      <h3 class="score-name">${player.user}</h3>
+      <h3 class="score-name">${player.user} :</h3>
       <h3 class="score-points">${player.score}</h3>
     </div>`;
   });
@@ -48,5 +48,5 @@ const getScores = async (cont) => {
 };
 
 export {
-  newUser, getScores, newGame, frameCreation, gameUrl,
+  addScore, getScores, newGame, frameCreation, gameUrl,
 };
