@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 html,
 body {
   padding: 0;
@@ -21,15 +23,36 @@ body {
 }
 
 h1 {
-  font-family: fangsong;
+  font-family: 'Permanent Marker', cursive;
   font-size: 4rem;
-  color: yellow;
+  color: #e4e40de8;
+  padding-left: 10rem;
 }
 
 .btn-container {
   display: flex;
   gap: 3rem;
   align-items: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #169416;
+}
+
+.recenth3 {
+
+}
+
+#refresh {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #12c712;
+  padding: 2px;
+  background-color: hsl(242deg 4% 18%);
+}
+
+#refresh:hover {
+  background-color: #e4e40de8;
 }
 
 #container {
@@ -47,9 +70,7 @@ h1 {
 }
 
 #points {
-  height: 500px;
-  width: 500px;
-  border: 1px solid black;
+  border: 3px solid #e4e40de8;
   overflow: auto;
 }
 
@@ -63,5 +84,10 @@ h1 {
 }
 
 #scores:nth-child(odd) {
-  background-color: rgb(124, 124, 126);
+  background-color: hsl(180deg 64% 22%);
 }
+
+#scores:nth-child(even) {
+  background-color: rgb(218 4 147 / 92%);
+}
+
