@@ -42,7 +42,7 @@ body {
 }
 
 #scores {
-  background-color: lightblue;
+  background-color: rgb(111, 112, 112);
   display: flex;
   align-items: center;
   justify-content: center;
