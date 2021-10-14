@@ -1,0 +1,2 @@
+const gameUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
+const scoresUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/H8Ha4pTxNUzGVhKJ5o9u/scores';
