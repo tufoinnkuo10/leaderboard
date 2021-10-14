@@ -28,3 +28,14 @@ const newUser = async (userValue, scoreValue) => {
   const jsonData = await response.json();
   return jsonData;
 };
+
+const frameCreation = (arr, cont) => {
+  let players = '';
+  arr.forEach((player) => {
+    players += `<div id="scores">
+      <h3 class="score-name">${player.user}</h3>
+      <h3 class="score-points">${player.score}</h3>
+    </div>`;
+  });
+  cont.innerHTML = players;
+};
