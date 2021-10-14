@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  font-family: 'Source Serif Pro', serif;
 }
 
 body {
@@ -17,6 +17,13 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  background-image: url('../images/swii.jpg');
+}
+
+h1 {
+  font-family: fangsong;
+  font-size: 4rem;
+  color: yellow;
 }
 
 .btn-container {
