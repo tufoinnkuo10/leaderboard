@@ -83,7 +83,6 @@ h1 {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin: 0.1rem;
   height: 3rem;
   padding-left: 9px;
 }
@@ -140,4 +139,3 @@ h1 {
   background-color: #e4e40de8;
 
 }
-
