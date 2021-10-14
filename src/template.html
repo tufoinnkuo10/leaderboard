@@ -7,37 +7,31 @@
   <title>To do List</title>
 </head>
 <body>
-  <h1 class="heading">Leaderboard</h1>
-  <section class="main">
-    
-  <div class="score part">
-    <div class="heading-text">
-      <h3>Recent Scores <span class="refresh"><button class="refresh" type="reset">Refresh</button></span></h3>
-    </div>
-    <div class="scorelist">
-      <ul class="list">
-        <li>john:25</li>
-        <li>james:45</li>
-        <li>king:78</li>
-        <li>tenten:584</li>
-        <li>kerenz:78</li>
-        <li>kelsy:144</li>
-        <li>queen:78</li>
-      </ul>
-  
+  <div id="title">
+    <h1>
+      Leaderboard
+    </h1>
+  </div>
+  <div id="container">
+    <div id="table-leaderboard">
+      <div class="btn-container">
+        <h3>Recent scores</h3>
+        <input type="button" value="Refresh" id="refresh">
+      </div>
+      <div id="points">
+      </div>
     </div>
 
+    <div id="add-score">
+      <h3>Add your score</h3>
+      <div id="input-container">
+        <div id="inputs">
+          <input type="text" name="name" id="name" placeholder="Your name">
+          <input type="number" name="score" id="score" placeholder="Your score" max="500" >
+          <input type="button" value="Submit" id="submit">
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div class="input-section">
-    <p class="add-score">Add Your Scores</p>
-    <input class="names" type="text" placeholder="your name"><br>
-    <input class="numbers" type="number" placeholder="your score"><br>
-    <input type="button" name="button" id="submit-button" value="submit">
-  </div>
-
-  </section>
-  
- <script src="script.js"></script>
 </body>
 </html>
