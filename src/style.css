@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
   border: none;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Source Serif Pro', serif;
 }
 
 body {
@@ -12,16 +20,47 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  background-image: url('../images/swii.jpg');
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 4rem;
+  color: #e4e40de8;
+  padding-left: 10rem;
 }
 
 .btn-container {
   display: flex;
   gap: 3rem;
   align-items: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #169416;
+}
+
+#refresh {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #f3edf3;
+  padding: 2px;
+  background-color: hsl(242deg 4% 18%);
+  border: 1px solid rgb(4, 12, 6);
+  border-radius: 1rem;
+  font-family: 'Source Serif Pro', serif;
+}
+
+#refresh:hover {
+  background-color: #e4e40de8;
+  color: black;
+  font-weight: bold;
 }
 
 #container {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   gap: 3rem;
   align-items: center;
   width: 100%;
@@ -35,21 +74,67 @@ body {
 }
 
 #points {
-  height: 500px;
-  width: 500px;
-  border: 1px solid black;
+  border: 4px solid #e4e40de8;
   overflow: auto;
+  border-radius: 2rem;
 }
 
 #scores {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 5rem;
-  margin: 0.4rem;
+  gap: 1rem;
   height: 3rem;
+  padding-left: 9px;
 }
 
 #scores:nth-child(odd) {
-  background-color: rgb(124, 124, 126);
+  background-color: hsl(180deg 64% 22%);
+}
+
+#scores:nth-child(even) {
+  background-color: rgb(234 52 85 / 92%);
+}
+
+.addscore {
+  gap: 3rem;
+  align-items: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #e4e40de8;
+}
+
+#add-score {
+  padding-bottom: 2rem;
+  background-image: url('../images/images.jpg');
+  background-repeat: no-repeat;
+  border: 2px solid #e4e40de8;
+  border-radius: 2rem;
+}
+
+#score,
+#name {
+  padding: 0.5rem;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #a1a1a7;
+  border-radius: 0.5rem;
+  border: 1px solid hsl(0deg 0% 13%);
+}
+
+#submit {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  border: 2px solid hsl(0deg 0% 13%);
+  border-radius: 10rem;
+  background-color: #a1a1a7;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#submit:hover {
+  color: #06648a;
+  background-color: #e4e40de8;
 }
