@@ -5,7 +5,7 @@ API Leaderboard
 
 
 > This project is designed to display scores of a game getting them from an API and sending creating them there.
-> ![demo gif](./image/to.png)
+> ![screenshot](../images/picshot.png)
 
 
 Additional description about the project and its features.
