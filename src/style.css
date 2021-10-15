@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 html,
 body {
@@ -11,7 +13,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 body {
@@ -24,7 +26,7 @@ body {
 }
 
 h1 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Londrina Solid', cursive;
   font-size: 4rem;
   color: #e4e40de8;
   padding-left: 10rem;
@@ -34,7 +36,7 @@ h1 {
   display: flex;
   gap: 3rem;
   align-items: center;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Londrina Solid', cursive;
   font-size: 2.5rem;
   font-weight: bolder;
   color: #169416;
@@ -44,11 +46,13 @@ h1 {
   font-size: 1rem;
   font-weight: bold;
   color: #f3edf3;
-  padding: 2px;
+  padding: 20px;
+  margin-top: 130%;
+  margin-left: 87%;
   background-color: hsl(242deg 4% 18%);
   border: 1px solid rgb(4, 12, 6);
   border-radius: 1rem;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Varela Round', sans-serif;
 }
 
 #refresh:hover {
@@ -98,7 +102,7 @@ h1 {
 .addscore {
   gap: 3rem;
   align-items: center;
-  font-family: 'Permanent Marker', cursive;
+ font-family: 'Londrina Solid', cursive;
   font-size: 2.5rem;
   font-weight: bolder;
   color: #e4e40de8;
@@ -125,13 +129,13 @@ h1 {
 
 #submit {
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 1000;
   margin-left: 4rem;
   margin-right: 4rem;
   border: 2px solid hsl(0deg 0% 13%);
   border-radius: 10rem;
   background-color: #a1a1a7;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Varela Round', sans-serif;
 }
 
 #submit:hover {
