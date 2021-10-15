@@ -1,20 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
+API Leaderboard
 
-To do list
 
-> This project is designed to display a list of activities to be completed in a day. it is made possible with the use of webpack
-> ![screenshot](./image/to.png)
+> This project is designed to display scores of a game getting them from an API and sending creating them there.
+> ![demo gif](./image/to.png)
 
-A picture of the test ran on the todo 
-> ![screenshot](./image/testa.png)
 
 Additional description about the project and its features.
 
-- Activities are in order
-- They follow a particular index pattern
-- All activities are called from an aray.
+- Scores are inputed
+- After submiting they are sent to the API
+- When you refresh it updates the score board by getting back the API information
 
 ## Built With
 
@@ -23,8 +21,9 @@ Additional description about the project and its features.
 - ![](https://img.shields.io/badge/HTML-purple) 
 - ![](https://img.shields.io/badge/CSS-blue)
 - ![](https://img.shields.io/badge/WEBPACK-violet)
-- barbel
-- jest
+- ![](https://img.shields.io/badge/Barbel-violet)
+- ![](https://img.shields.io/badge/API-violet)
+- ![](https://img.shields.io/badge/JSON-violet)
 
 ##periquities
 To get this project up and running, you should do the following;
@@ -76,7 +75,7 @@ If you want to run the tests, do the following:
 
 Or
 
-You can run ``` git clone https://github.com/tufoinnkuo10/TODO.git ``` to clone the repository and avoid all the installation steps because tests are set as a dependency.
+You can run ``` git clone https://github.com/tufoinnkuo10/LEADERBOARD.git ``` to clone the repository and avoid all the installation steps because tests are set as a dependency.
 Happy coding!
 
 
