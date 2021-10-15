@@ -4,7 +4,7 @@
 API Leaderboard
 
 
-> This project is designed to display scores of a game getting them from an API and sending creating them there.
+> This project is designed to display the User and scores of a game getting them from an API and creating them there.
 > ![screenshot](./images/picshot.png)
 
 
